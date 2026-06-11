@@ -1,0 +1,164 @@
+export type Language = 'en' | 'ar' | 'fr';
+
+export const translations = {
+  en: {
+    nav: { home: "Home", menu: "Menu", story: "Our Story", reserve: "Reserve" },
+    hero: { subtitle: "Authentic Qatari Cuisine", title: "A Symphony of Flavor", cta: "Discover the Menu" },
+    about: { title: "Our Heritage", desc: "Experience the rich traditions of Qatar through our meticulously crafted dishes. Every bite tells a story of hospitality, spice, and history." },
+    menu: { title: "Culinary Masterpieces", categories: { all: "All", breakfast: "Breakfast", appetizers: "Appetizers", main: "Main Course", desserts: "Desserts", drinks: "Drinks" } },
+    reservation: { title: "Reserve Your Table", date: "Date", time: "Time", guests: "Guests", submit: "Confirm Booking" },
+    footer: { rights: "All rights reserved." }
+  },
+  ar: {
+    nav: { home: "الرئيسية", menu: "القائمة", story: "قصتنا", reserve: "احجز" },
+    hero: { subtitle: "المطبخ القطري الأصيل", title: "سيمفونية من النكهات", cta: "اكتشف القائمة" },
+    about: { title: "تراثنا", desc: "جرب تقاليد قطر الغنية من خلال أطباقنا المعدة بعناية. كل لقمة تحكي قصة من كرم الضيافة والتوابل والتاريخ." },
+    menu: { title: "روائع الطهي", categories: { all: "الكل", breakfast: "الإفطار", appetizers: "المقبلات", main: "الطبق الرئيسي", desserts: "الحلويات", drinks: "المشروبات" } },
+    reservation: { title: "احجز طاولتك", date: "التاريخ", time: "الوقت", guests: "الضيوف", submit: "تأكيد الحجز" },
+    footer: { rights: "جميع الحقوق محفوظة." }
+  },
+  fr: {
+    nav: { home: "Accueil", menu: "Menu", story: "Notre Histoire", reserve: "Réserver" },
+    hero: { subtitle: "Cuisine Qatarienne Authentique", title: "Une Symphonie de Saveurs", cta: "Découvrir le Menu" },
+    about: { title: "Notre Héritage", desc: "Découvrez les riches traditions du Qatar à travers nos plats méticuleusement élaborés. Chaque bouchée raconte une histoire d'hospitalité." },
+    menu: { title: "Chefs-d'œuvre Culinaires", categories: { all: "Tout", breakfast: "Petit Déjeuner", appetizers: "Entrées", main: "Plat Principal", desserts: "Desserts", drinks: "Boissons" } },
+    reservation: { title: "Réserver une Table", date: "Date", time: "Heure", guests: "Invités", submit: "Confirmer" },
+    footer: { rights: "Tous droits réservés." }
+  }
+};
+
+export const menuData = [
+  // Desserts
+  {
+    id: 1,
+    name: "Algaymat Basta",
+    desc: "Fried dough balls, sugar syrup and dates syrup.",
+    price: 36.00,
+    category: "desserts",
+    image: "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    id: 2,
+    name: "Pistachio Mafroka Kunafa",
+    desc: "Pistachio, sugar syrup, rose water and your choice of ice cream.",
+    price: 44.00,
+    category: "desserts",
+    image: "https://images.unsplash.com/photo-1615870216519-2f9fa575fa5c?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    id: 3,
+    name: "Saffron Cake",
+    desc: "Infused with the delicate flavors of Persian saffron and baked to golden perfection.",
+    price: 58.00,
+    category: "desserts",
+    featured: true,
+    image: "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=800&q=80"
+  },
+
+  // Appetizers
+  {
+    id: 4,
+    name: "Hummus",
+    desc: "Made with the freshest ingredients, including chickpeas, tahini and lemon juice.",
+    price: 37.00,
+    category: "appetizers",
+    image: "https://images.unsplash.com/photo-1571197119282-7c4f0d4f84d8?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    id: 5,
+    name: "Muttabal",
+    desc: "Cooked and mashed eggplants, mixed with tahini, garlic and lemon.",
+    price: 37.00,
+    category: "appetizers",
+    image: "https://images.unsplash.com/photo-1604908554027-1b4d0d2d1b97?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    id: 6,
+    name: "Meat Samosa",
+    desc: "Deep-fried pastry filled with spiced meat.",
+    price: 36.00,
+    category: "appetizers",
+    image: "https://images.unsplash.com/photo-1601050690117-94f5f6fa0c43?auto=format&fit=crop&w=800&q=80"
+  },
+
+  // Breakfast
+  {
+    id: 7,
+    name: "Shakshuka",
+    desc: "Scrambled eggs, tomato and special seasoning.",
+    price: 48.00,
+    category: "breakfast",
+    image: "https://images.unsplash.com/photo-1608039829572-78524f79c4c7?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    id: 8,
+    name: "Bagshat Basta",
+    desc: "Qaymar, labneh, cream cheese, cheddar cheese, zaatar, honey, jam and olives.",
+    price: 55.00,
+    category: "breakfast",
+    featured: true,
+    image: "https://images.unsplash.com/photo-1525351484163-7529414344d8?auto=format&fit=crop&w=800&q=80"
+  },
+
+  // Main Course
+  {
+    id: 9,
+    name: "Majbos Al Raza",
+    desc: "Half chicken cooked with yellow rice simmered in chicken stock with special basta arabic spices.",
+    price: 105.00,
+    category: "main",
+    featured: true,
+    image: "https://images.unsplash.com/photo-1604908177522-402f6f0b0b13?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    id: 10,
+    name: "Margoga Meat",
+    desc: "Choice of arabic or regag bread simmered in meat stew and seasonal vegetables.",
+    price: 95.00,
+    category: "main",
+    image: "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    id: 11,
+    name: "Biryani Kumar Meat",
+    desc: "Meat cubes cooked with mix of rice, onion, raisins and cashew nut.",
+    price: 90.00,
+    category: "main",
+    image: "https://images.unsplash.com/photo-1633945274405-b6c8069047b0?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    id: 12,
+    name: "Morrabian Basta",
+    desc: "Shrimps cooked with yellow rice simmered in shrimps stock, special arabic spices.",
+    price: 120.00,
+    category: "main",
+    featured: true,
+    image: "https://images.unsplash.com/photo-1563379926898-05f4575a45d8?auto=format&fit=crop&w=800&q=80"
+  },
+
+  // Drinks
+  {
+    id: 13,
+    name: "Doha Mojito",
+    desc: "Lemon, pineapple and ginger.",
+    price: 32.00,
+    category: "drinks",
+    image: "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    id: 14,
+    name: "Arabic Coffee",
+    desc: "Traditional brew made from premium beans, infused with fragrant cardamom.",
+    price: 20.00,
+    category: "drinks",
+    image: "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    id: 15,
+    name: "Saffron Juice",
+    desc: "Milk, saffron, mango, saffron ice cream and pistachio.",
+    price: 36.00,
+    category: "drinks",
+    image: "https://images.unsplash.com/photo-1623065422902-30a2d299bbe4?auto=format&fit=crop&w=800&q=80"
+  }
+];
