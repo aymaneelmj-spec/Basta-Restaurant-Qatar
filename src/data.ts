@@ -35,6 +35,7 @@ export const menuData = [
     desc: "Fried dough balls, sugar syrup and dates syrup.",
     price: 36.00,
     category: "desserts",
+    // Golden fried dough balls drizzled with syrup
     image: "https://images.unsplash.com/photo-1603532648955-039310d9ed75?auto=format&fit=crop&w=1200&q=80"
   },
 
@@ -44,6 +45,7 @@ export const menuData = [
     desc: "Pistachio, sugar syrup, rose water and your choice of ice cream.",
     price: 44.00,
     category: "desserts",
+    // Shredded kunafa pastry with pistachios
     image: "https://images.unsplash.com/photo-1621303837174-89787a7d4729?auto=format&fit=crop&w=1200&q=80"
   },
 
@@ -54,7 +56,8 @@ export const menuData = [
     price: 58.00,
     category: "desserts",
     featured: true,
-    image: "https://images.unsplash.com/photo-1571115177098-24ec42ed204d?auto=format&fit=crop&w=1200&q=80"
+    // Golden layered cake slice
+    image: "https://images.unsplash.com/photo-1602663491496-73f07481dbea?auto=format&fit=crop&w=1200&q=80"
   },
 
   // Appetizers
@@ -64,7 +67,8 @@ export const menuData = [
     desc: "Made with the freshest ingredients, including chickpeas, tahini and lemon juice.",
     price: 37.00,
     category: "appetizers",
-    image: "https://images.unsplash.com/photo-1662116765994-1e4200c43589?auto=format&fit=crop&w=1200&q=80"
+    // Bowl of creamy hummus with olive oil garnish
+    image: "https://images.unsplash.com/photo-1637949385162-e416fb15b2ce?auto=format&fit=crop&w=1200&q=80"
   },
 
   {
@@ -73,7 +77,8 @@ export const menuData = [
     desc: "Cooked and mashed eggplants, mixed with tahini, garlic and lemon.",
     price: 37.00,
     category: "appetizers",
-    image: "https://images.unsplash.com/photo-1631515242808-497c3fbd397b?auto=format&fit=crop&w=1200&q=80"
+    // Smoky baba ganoush / muttabal dip with garnish
+    image: "https://images.unsplash.com/photo-1734772192785-2986a99ce40f?auto=format&fit=crop&w=1200&q=80"
   },
 
   {
@@ -82,7 +87,8 @@ export const menuData = [
     desc: "Deep-fried pastry filled with spiced meat.",
     price: 36.00,
     category: "appetizers",
-    image: "https://images.unsplash.com/photo-1601050690117-94f5f6fa0c43?auto=format&fit=crop&w=1200&q=80"
+    // Crispy fried samosa pastries
+    image: "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=1200&q=80"
   },
 
   // Breakfast
@@ -92,6 +98,7 @@ export const menuData = [
     desc: "Scrambled eggs, tomato and special seasoning.",
     price: 48.00,
     category: "breakfast",
+    // Eggs poached in tomato sauce in a cast iron pan
     image: "https://images.unsplash.com/photo-1590412200988-a436970781fa?auto=format&fit=crop&w=1200&q=80"
   },
 
@@ -102,6 +109,7 @@ export const menuData = [
     price: 55.00,
     category: "breakfast",
     featured: true,
+    // Arabic breakfast spread with cheeses, honey and olives
     image: "https://images.unsplash.com/photo-1525351484163-7529414344d8?auto=format&fit=crop&w=1200&q=80"
   },
 
@@ -113,7 +121,8 @@ export const menuData = [
     price: 105.00,
     category: "main",
     featured: true,
-    image: "https://images.unsplash.com/photo-1604909052743-94e838986d24?auto=format&fit=crop&w=1200&q=80"
+    // Whole roasted chicken on fragrant yellow rice
+    image: "https://images.unsplash.com/photo-1603496987674-79600a000f55?auto=format&fit=crop&w=1200&q=80"
   },
 
   {
@@ -122,6 +131,7 @@ export const menuData = [
     desc: "Choice of arabic or regag bread simmered in meat stew and seasonal vegetables.",
     price: 95.00,
     category: "main",
+    // Rich meat stew with tender chunks of beef
     image: "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1200&q=80"
   },
 
@@ -131,6 +141,7 @@ export const menuData = [
     desc: "Meat cubes cooked with mix of rice, onion, raisins and cashew nut.",
     price: 90.00,
     category: "main",
+    // Aromatic rice dish with meat, raisins and cashews
     image: "https://images.unsplash.com/photo-1631515243349-e0cb75fb8d3a?auto=format&fit=crop&w=1200&q=80"
   },
 
@@ -141,7 +152,8 @@ export const menuData = [
     price: 120.00,
     category: "main",
     featured: true,
-    image: "https://images.unsplash.com/photo-1565680018434-b513d5e5fd47?auto=format&fit=crop&w=1200&q=80"
+    // Saffron rice with shrimps and seafood
+    image: "https://images.unsplash.com/photo-1534080564583-6be75777b70a?auto=format&fit=crop&w=1200&q=80"
   },
 
   // Drinks
@@ -151,7 +163,8 @@ export const menuData = [
     desc: "Lemon, pineapple and ginger.",
     price: 32.00,
     category: "drinks",
-    image: "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?auto=format&fit=crop&w=1200&q=80"
+    // Refreshing mojito-style cocktail with mint and citrus
+    image: "https://images.unsplash.com/photo-1653542772393-71ffa417b1c4?auto=format&fit=crop&w=1200&q=80"
   },
 
   {
@@ -160,7 +173,8 @@ export const menuData = [
     desc: "Traditional brew made from premium beans, infused with fragrant cardamom.",
     price: 20.00,
     category: "drinks",
-    image: "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=1200&q=80"
+    // Traditional brass dallah coffee pot with smoke
+    image: "https://images.unsplash.com/photo-1618597778480-8c5d3f2d3ba8?auto=format&fit=crop&w=1200&q=80"
   },
 
   {
@@ -169,6 +183,7 @@ export const menuData = [
     desc: "Milk, saffron, mango, saffron ice cream and pistachio.",
     price: 36.00,
     category: "drinks",
-    image: "https://images.unsplash.com/photo-1622483767028-3f66f32aef97?auto=format&fit=crop&w=1200&q=80"
+    // Golden mango and saffron drink
+    image: "https://images.unsplash.com/photo-1619898804188-e7bad4bd2127?auto=format&fit=crop&w=1200&q=80"
   }
 ];
