@@ -35,16 +35,18 @@ export const menuData = [
     desc: "Fried dough balls, sugar syrup and dates syrup.",
     price: 36.00,
     category: "desserts",
-    image: "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?auto=format&fit=crop&w=800&q=80"
+    image: "https://images.unsplash.com/photo-1603532648955-039310d9ed75?auto=format&fit=crop&w=1200&q=80"
   },
+
   {
     id: 2,
     name: "Pistachio Mafroka Kunafa",
     desc: "Pistachio, sugar syrup, rose water and your choice of ice cream.",
     price: 44.00,
     category: "desserts",
-    image: "https://images.unsplash.com/photo-1615870216519-2f9fa575fa5c?auto=format&fit=crop&w=800&q=80"
+    image: "https://images.unsplash.com/photo-1621303837174-89787a7d4729?auto=format&fit=crop&w=1200&q=80"
   },
+
   {
     id: 3,
     name: "Saffron Cake",
@@ -52,7 +54,7 @@ export const menuData = [
     price: 58.00,
     category: "desserts",
     featured: true,
-    image: "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=800&q=80"
+    image: "https://images.unsplash.com/photo-1571115177098-24ec42ed204d?auto=format&fit=crop&w=1200&q=80"
   },
 
   // Appetizers
@@ -62,23 +64,25 @@ export const menuData = [
     desc: "Made with the freshest ingredients, including chickpeas, tahini and lemon juice.",
     price: 37.00,
     category: "appetizers",
-    image: "https://images.unsplash.com/photo-1571197119282-7c4f0d4f84d8?auto=format&fit=crop&w=800&q=80"
+    image: "https://images.unsplash.com/photo-1662116765994-1e4200c43589?auto=format&fit=crop&w=1200&q=80"
   },
+
   {
     id: 5,
     name: "Muttabal",
     desc: "Cooked and mashed eggplants, mixed with tahini, garlic and lemon.",
     price: 37.00,
     category: "appetizers",
-    image: "https://images.unsplash.com/photo-1604908554027-1b4d0d2d1b97?auto=format&fit=crop&w=800&q=80"
+    image: "https://images.unsplash.com/photo-1631515242808-497c3fbd397b?auto=format&fit=crop&w=1200&q=80"
   },
+
   {
     id: 6,
     name: "Meat Samosa",
     desc: "Deep-fried pastry filled with spiced meat.",
     price: 36.00,
     category: "appetizers",
-    image: "https://images.unsplash.com/photo-1601050690117-94f5f6fa0c43?auto=format&fit=crop&w=800&q=80"
+    image: "https://images.unsplash.com/photo-1601050690117-94f5f6fa0c43?auto=format&fit=crop&w=1200&q=80"
   },
 
   // Breakfast
@@ -88,8 +92,9 @@ export const menuData = [
     desc: "Scrambled eggs, tomato and special seasoning.",
     price: 48.00,
     category: "breakfast",
-    image: "https://images.unsplash.com/photo-1608039829572-78524f79c4c7?auto=format&fit=crop&w=800&q=80"
+    image: "https://images.unsplash.com/photo-1590412200988-a436970781fa?auto=format&fit=crop&w=1200&q=80"
   },
+
   {
     id: 8,
     name: "Bagshat Basta",
@@ -97,7 +102,7 @@ export const menuData = [
     price: 55.00,
     category: "breakfast",
     featured: true,
-    image: "https://images.unsplash.com/photo-1525351484163-7529414344d8?auto=format&fit=crop&w=800&q=80"
+    image: "https://images.unsplash.com/photo-1525351484163-7529414344d8?auto=format&fit=crop&w=1200&q=80"
   },
 
   // Main Course
@@ -108,24 +113,27 @@ export const menuData = [
     price: 105.00,
     category: "main",
     featured: true,
-    image: "https://images.unsplash.com/photo-1604908177522-402f6f0b0b13?auto=format&fit=crop&w=800&q=80"
+    image: "https://images.unsplash.com/photo-1604909052743-94e838986d24?auto=format&fit=crop&w=1200&q=80"
   },
+
   {
     id: 10,
     name: "Margoga Meat",
     desc: "Choice of arabic or regag bread simmered in meat stew and seasonal vegetables.",
     price: 95.00,
     category: "main",
-    image: "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=800&q=80"
+    image: "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1200&q=80"
   },
+
   {
     id: 11,
     name: "Biryani Kumar Meat",
     desc: "Meat cubes cooked with mix of rice, onion, raisins and cashew nut.",
     price: 90.00,
     category: "main",
-    image: "https://images.unsplash.com/photo-1633945274405-b6c8069047b0?auto=format&fit=crop&w=800&q=80"
+    image: "https://images.unsplash.com/photo-1631515243349-e0cb75fb8d3a?auto=format&fit=crop&w=1200&q=80"
   },
+
   {
     id: 12,
     name: "Morrabian Basta",
@@ -133,7 +141,7 @@ export const menuData = [
     price: 120.00,
     category: "main",
     featured: true,
-    image: "https://images.unsplash.com/photo-1563379926898-05f4575a45d8?auto=format&fit=crop&w=800&q=80"
+    image: "https://images.unsplash.com/photo-1565680018434-b513d5e5fd47?auto=format&fit=crop&w=1200&q=80"
   },
 
   // Drinks
@@ -143,22 +151,24 @@ export const menuData = [
     desc: "Lemon, pineapple and ginger.",
     price: 32.00,
     category: "drinks",
-    image: "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&w=800&q=80"
+    image: "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?auto=format&fit=crop&w=1200&q=80"
   },
+
   {
     id: 14,
     name: "Arabic Coffee",
     desc: "Traditional brew made from premium beans, infused with fragrant cardamom.",
     price: 20.00,
     category: "drinks",
-    image: "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=800&q=80"
+    image: "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=1200&q=80"
   },
+
   {
     id: 15,
     name: "Saffron Juice",
     desc: "Milk, saffron, mango, saffron ice cream and pistachio.",
     price: 36.00,
     category: "drinks",
-    image: "https://images.unsplash.com/photo-1623065422902-30a2d299bbe4?auto=format&fit=crop&w=800&q=80"
+    image: "https://images.unsplash.com/photo-1622483767028-3f66f32aef97?auto=format&fit=crop&w=1200&q=80"
   }
 ];
